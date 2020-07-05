@@ -1,0 +1,18 @@
+# Ignore vim backup files:
+*~
+
+# Ignore vim swap files:
+*.swp
+*.swo
+
+# Ignore Notepad++ backup files:
+*.bak
+
+# Ignore build log files:
+*.log
+
+# Ignore the output directory:
+output/
+
+# Ignore the temp directory (left over if the build dies):
+temp/
