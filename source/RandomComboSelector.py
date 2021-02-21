@@ -27,6 +27,7 @@ class RandomComboSelector(tkinter.Frame):
 
 	def say_hi(self):
 		print("Hi there, everyone!")
+		print("It's a great day today!")
 
 root = tkinter.Tk()
 app = RandomComboSelector(master=root)
