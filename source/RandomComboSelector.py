@@ -34,3 +34,16 @@ root.geometry("500x200") #default window size increase so it doesn't start tiny
 app = RandomComboSelector(master=root)
 # app.master.maxsize(1000,400) #Can make a max size for the window as well
 app.mainloop()
+
+#function that creates random length of chars from 1-10
+def random_selector_func ():
+    #create random length
+    rand_str_len = random.randrange(1,11)
+    
+    #add random characters until you reach rand_str_len
+    output_str = ''
+    while rand_str_len != 0:
+        output_str += random.choice("abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*")
+        rand_str_len -= 1
+        
+    return output_str
