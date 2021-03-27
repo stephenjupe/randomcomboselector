@@ -31,8 +31,10 @@ class RandomComboSelector(tkinter.Frame):
 
 root = tkinter.Tk()
 root.geometry("500x200") #default window size increase so it doesn't start tiny
+
 app = RandomComboSelector(master=root)
 # app.master.maxsize(1000,400) #Can make a max size for the window as well
+app.master.title("Random Combination Selector")
 app.mainloop()
 
 #function that creates random length of chars from 1-10
